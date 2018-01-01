@@ -1,0 +1,32 @@
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 100px;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.video {
+	position: relative;
+	padding-bottom: 17.61%;
+	height:0;
+	overflow: hidden;
+	margin: 25px 10px 25px;
+	width:31.52%;
+	float: left;
+}
+
+.video iframe, .video object, .video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
