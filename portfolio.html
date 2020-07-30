@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <title>Pat Gardner</title>
+	  <link rel="icon" href="http://www.gardnerpat.com/favicon.ico?v=2" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm fixed-top">
+      <ul class="navbar-nav">
+        <li class="nav-item icon-link">
+          <a href="index.html">
+            <i class="material-icons">home</i>
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="nav-item icon-link">
+          <a href="portfolio.html">
+            <i class="material-icons">dashboard</i>
+            <span>Portfolio</span>
+          </a>
+        </li>
+        <li class="nav-item icon-link">
+          <a href="gardnerpat_resume.pdf" target='_blank'>
+            <i class="material-icons">description</i>
+            <span>R&eacute;sum&eacute;</span>
+          </a>
+        </li>
+        <li class="nav-item icon-link">
+          <a href="filmmaking.html">
+            <i class="material-icons">camera_alt</i>
+            <span>Filmmaking</span>
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav navbar-right">
+        <a class="nav-item" href="https://www.linkedin.com/in/patgardner/" target="_blank"><img src="images/in.png" height=45 width=45/></a>
+    		<a class="nav-item" href="https://www.youtube.com/channel/UCxxO8ACIB1amHLlRzvthaFw?" target="_blank"><img src="images/yt.png" height=45 width=45/></a>
+    		<a class="nav-item" href="mailto:patgardner37@gamil.com"><img src="images/mail.png" height=45 width=45/></a>
+      </ul>
+    </nav>
+
+    <div class="main-block">
+        <div class="portfolio-header">
+    		  <div class="portfolio-name">
+    			  Portfolio
+    		  </div>
+    			<div class="portfolio-sort">
+    						<div class="filter-label">Filter On</div>
+    						<div class="btn-group btn-group-toggle" id="shuffle-filteron-type" role="group">
+                  <label class="btn btn-outline-info btn-sm">
+                    <input type="checkbox" value="work">Work
+                  </label>
+    							<label class="btn btn-outline-info btn-sm">
+    								<input type="checkbox" value="personal">Personal
+    							</label>
+    							<label class="btn btn-outline-info btn-sm">
+    								<input type="checkbox" value="school">School
+    							</label>
+    							<label class="btn btn-outline-info btn-sm">
+    								<input type="checkbox" value="award">Award
+    							</label>
+    						</div>
+  			  </div>
+        </div>
+  		<div class="shuffle-container-holder">
+  			<div class="card-holder row">
+          <!-- Robinpop -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="personal" data-langs="python" data-date="06-27-20">
+  					<a href="https://www.youtube.com/watch?v=9GdL5ZWU9Pc" target="_blank">
+  						<div class="portfolio-card screen-pic">
+  							<div class="aspect aspect__wide">
+  								<div class="aspect__inner">
+  									<img class="" src="images/robinpop.png" alt="Robinhood Popularity">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Trading Based on Robinhood Trends</h5>
+  								<p class="card-text">Down $100 from a week, but swung back upward over $400 after video posting! Github files in video description.</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Personal</span>
+  									<span class="badge badge-pill badge-primary">Trading</span>
+  									<span class="badge badge-pill badge-primary">Python</span>
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- Belvedere -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="work" data-langs="" data-date="07-15-20">
+  					<a href="https://www.belvederetrading.com/btu" target="_blank">
+  						<div class="portfolio-card">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/belv.png" alt="Belvedere Trading">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Belvedere Trading University</h5>
+  								<p class="card-text">Replacement "Intro to Options" educational program from canceled Summer 2020 Junior Trader Internship.</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Work</span>
+  									<span class="badge badge-pill badge-primary">Trading</span>
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- Google -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="work" data-langs="python,sql,java,c++" data-date="05-29-20">
+  					<a href="https://www.youtube.com/watch?v=OVXx85Dt5c8" target="_blank">
+  						<div class="portfolio-card">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/goog.png" alt="Google">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Google Software Engineer Internship</h5>
+  								<p class="card-text">14-week Internship at Google Pittsburgh on the Ads ML team (80% virtual). Click for video!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Work</span>
+  									<span class="badge badge-pill badge-primary">Python</span>
+                    <span class="badge badge-pill badge-primary">Java</span>
+                    <span class="badge badge-pill badge-primary">C++</span>
+                    <span class="badge badge-pill badge-primary">TFX</span>
+                    <span class="badge badge-pill badge-primary">ML</span>
+                    <span class="badge badge-pill badge-primary">SQL</span>
+                    <span class="badge badge-pill badge-primary">Apache Beam</span>
+                  </div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- Dean's List -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="award" data-date="05-05-20">
+            <a href="https://www.youtube.com/watch?v=xTYz0ySKLMk" target="_blank">
+              <div class="portfolio-card side-card">
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Dean's List (Pitt)</h5>
+  								<p class="card-text smaller-text">All A's throughout my college career. Click for day in the life!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Award</span>
+  								</div>
+  							</div>
+  						</div>
+            </a>
+  				</div>
+          <!-- Air ML -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="school" data-langs="python" data-date="04-25-20">
+  					<a href="AirlineAircraftML.pdf" target="_blank">
+  						<div class="portfolio-card screen-pic">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/airml.png" alt="Aircraft ML Document">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Research Paper on ML Use Cases in Aircraft and Airline Industries</h5>
+  								<p class="card-text">Graduate-level business school class on China's air industries. Click to view the report (interactive Colab links - can run ML models yourself)!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">School</span>
+                    <span class="badge badge-pill badge-primary">Python</span>
+                    <span class="badge badge-pill badge-primary">TensorFlow</span>
+                    <span class="badge badge-pill badge-primary">ML</span>
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- CA -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="school" data-date="06-05-20">
+						<div class="portfolio-card side-card">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">Community Assistant</h5>
+								<p class="card-text smaller-text">Live alongside and support Pitt's student-athletes.</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">School</span>
+                  <span class="badge badge-pill badge-primary">Leadership</span>
+								</div>
+							</div>
+						</div>
+  				</div>
+          <!-- PAT -->
+  				<div class="card-container col-lg-6 col-sm-12 col-xl-4 col-md-6" data-type="school" data-date="03-02-20">
+						<div class="portfolio-card side-card side-card-img">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">Panther Algo Trading Founder</h5>
+								<p class="card-text smaller-text">Learning about the intersection of coding and investing together.</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">School</span>
+                  <span class="badge badge-pill badge-primary">Club</span>
+								</div>
+							</div>
+							<div class="aspect aspect__wide side-card-logo">
+								<div class="aspect__inner">
+									<img src="images/pat.png"></img>
+								</div>
+							</div>
+						</div>
+  				</div>
+          <!-- Jane St -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="personal" data-langs="python" data-date="06-29-20">
+  					<a href="https://github.com/patgardner/janestpuzzles" target="_blank">
+  						<div class="portfolio-card">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="full-width" src="images/puzzle.png" alt="Puzzle">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Jane Street Puzzles</h5>
+  								<p class="card-text">Monthly coding/math puzzles I do, time permitting. Click to navigate to GitHub repo!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Personal</span>
+  									<span class="badge badge-pill badge-primary">Python</span>
+                  </div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- AWS -->
+  				<div class="card-container col-lg-6 col-sm-12 col-xl-4 col-md-6" data-type="work" data-date="09-20-19">
+						<div class="portfolio-card side-card side-card-img">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">AWS Cloud Solutions Architect</h5>
+								<p class="card-text smaller-text">Capital One encouraged interns to do extra AWS learning during the summer and take the exam.</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">Work</span>
+                  <span class="badge badge-pill badge-primary">Certificate</span>
+								</div>
+							</div>
+							<div class="aspect aspect__wide side-card-logo">
+								<div class="aspect__inner">
+									<img src="images/aws.png"></img>
+								</div>
+							</div>
+						</div>
+  				</div>
+          <!-- Capital One -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="work" data-langs="python,sql" data-date="08-07-19">
+  					<a href="https://www.youtube.com/watch?v=qxpm1m5Y024" target="_blank">
+  						<div class="portfolio-card">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/cap1.jpg" alt="Capital One">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Capital One Software Engineer Internship</h5>
+  								<p class="card-text">10-week Internship at Capital One in Richmond, aiding transition to Cloud. Click for video!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Work</span>
+  									<span class="badge badge-pill badge-primary">Python</span>
+                    <span class="badge badge-pill badge-primary">SQL</span>
+                    <span class="badge badge-pill badge-primary">AWS</span>
+                  </div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- Movisu-Fit -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="work" data-langs="java,c++,bluetooth" data-date="09-15-18">
+  					<a href="https://www.youtube.com/watch?v=AemZGyqEDoI" target="_blank">
+  						<div class="portfolio-card">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/movisufit.png" alt="Movisu-Fit">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Movisu-Fit</h5>
+  								<p class="card-text">Student Developer/Team Lead for research project with physical therapist. Click to see a video!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Work</span>
+  									<span class="badge badge-pill badge-primary">Java</span>
+  									<span class="badge badge-pill badge-primary">C++</span>
+                    <span class="badge badge-pill badge-primary">Bluetooth</span>
+                  </div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- Green Belt -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="school" data-langs="" data-date="04-26-19">
+  					<a href="gardner_gb.pdf" target="_blank">
+  						<div class="portfolio-card screen-pic">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/gb.png" alt="Green Belt Certificate">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Lean Six Sigma Green Belt</h5>
+  								<p class="card-text">Class taught within Pitt's Industrial Engineering School, as part of the Certificate in Supply Chain Management.</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">School</span>
+  									<span class="badge badge-pill badge-primary">Certificate</span>
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+  				<!-- EBA -->
+  				<div class="card-container col-lg-6 col-sm-12 col-xl-4 col-md-6" data-type="school" data-date="03-02-18">
+						<div class="portfolio-card side-card side-card-img">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">EBA President</h5>
+								<p class="card-text smaller-text">Engineering Business Administration. We prepare engineers for future management positions.</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">School</span>
+                  <span class="badge badge-pill badge-primary">Club</span>
+								</div>
+							</div>
+							<div class="aspect aspect__wide side-card-logo">
+								<div class="aspect__inner">
+									<img src="images/eba.jpg"></img>
+								</div>
+							</div>
+						</div>
+  				</div>
+          <!-- RA of the month -->
+          <div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="award" data-langs="" data-date="12-09-18">
+  					<a href="https://otms.nrhh.org/search?q=pat%20gardner&region=&university=&category=&award=4&month=&rows=&page=" target="_blank">
+  						<div class="portfolio-card screen-pic">
+  							<div class="aspect aspect__wide">
+  								<div class="aspect__inner">
+  									<img class="" src="images/otm.png" alt="RA of the Month">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Northeast Region RA of the Month</h5>
+  								<p class="card-text">Won Best Resident Assistant for the Month of December 2018. Click to see my co-worker's nomination, which won for the whole Northeast!</p>
+  								<div class="tags">
+                    <span class="badge badge-pill badge-info">Award</span>
+                    <span class="badge badge-pill badge-primary">Leadership</span>
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- RA -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="school" data-date="03-05-20">
+						<div class="portfolio-card side-card">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">Resident Assistant</h5>
+								<p class="card-text smaller-text">Engineering RA for 2 years (freshmen & upperclassmen).</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">School</span>
+                  <span class="badge badge-pill badge-primary">Leadership</span>
+								</div>
+							</div>
+						</div>
+  				</div>
+          <!-- K&L Gates -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="work" data-langs="" data-date="07-07-18">
+  						<div class="portfolio-card">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/kandl.png" alt="K&L Gates">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">K&L Gates Business Analyst Internship</h5>
+  								<p class="card-text">10-week Internship at K&L Gates in Pittsburgh, working within the IT org and supporting the CIO.</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Work</span>
+  									<span class="badge badge-pill badge-primary">Business Analytics</span>
+                  </div>
+  							</div>
+  						</div>
+  				</div>
+          <!-- Battle Dome -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="award" data-date="03-24-18">
+            <a href="https://www.instagram.com/p/Bgt8MqJgQsM/?igshid=z9zjwoxwjy2g" target="_blank">
+            	<div class="portfolio-card side-card">
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Pitt Battle Dome Champion</h5>
+  								<p class="card-text smaller-text">$200 Dick's Gift Card = Ray-Bans.</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Award</span>
+                    <span class="badge badge-pill badge-primary">Fitness</span>
+  								</div>
+  							</div>
+  						</div>
+            </a>
+  				</div>
+          <!-- Merit Scholarship -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="award" data-date="08-26-17">
+  					<div class="portfolio-card side-card">
+  						<div class="portfolio-card-body">
+  							<h5 class="portfolio-card-title">Full-Tuition to Pitt</h5>
+  							<p class="card-text smaller-text">How does someone from Memphis end up in Pittsburgh?</p>
+  							<div class="tags">
+  								<span class="badge badge-pill badge-info">Award</span>
+                  <span class="badge badge-pill badge-primary">Scholarship</span>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+          <!-- Scholar Athlete -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="award" data-langs="" data-date="06-10-17">
+  					<a href="http://www.commercialappeal.com/story/sports/high-school/2017/06/10/sports-awards-winners/379021001/" target="_blank">
+  						<div class="portfolio-card screen-pic">
+  							<div class="aspect aspect__wide">
+  								<div class="aspect__inner">
+  									<img class="" src="images/award.png" alt="Scholar Athlete of the Year">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Commercial Appeal Scholar-Athlete of the Year</h5>
+  								<p class="card-text">Culmination of my high school career - my proudest accolade to this day. Click to view the article (see slide 2)!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Award</span>
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- Valedictorian -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="award" data-langs="" data-date="05-21-17">
+  					<a href="https://www.youtube.com/watch?v=i1JvrMb5oZ0" target="_blank">
+  						<div class="portfolio-card screen-pic">
+  							<div class="aspect aspect__wide">
+  								<div class="aspect__inner">
+  									<img class="" src="images/val.png" alt="Valedictorian">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Valedictorian</h5>
+  								<p class="card-text">I was valedictorian of my graduating class of 445. Luckily, taking all those AP classes greatly accelerated my college progression. Click to watch a video of my speech!</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Award</span>
+  								</div>
+  							</div>
+  						</div>
+  					</a>
+  				</div>
+          <!-- Most Likely -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="award" data-date="12-05-16">
+						<div class="portfolio-card side-card">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">Most Likely to Succeed</h5>
+								<p class="card-text smaller-text">As voted on by my senior class at Houston High.</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">Award</span>
+								</div>
+							</div>
+						</div>
+  				</div>
+          <!-- ACT Score -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="award" data-date="03-05-17">
+						<div class="portfolio-card side-card">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">Perfect ACT Score</h5>
+								<p class="card-text smaller-text">Only* took 5 practice tests and 3 official tries to get the 36...</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">Award</span>
+								</div>
+							</div>
+						</div>
+  				</div>
+  				<!-- AP  -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="award" data-date="06-05-17">
+						<div class="portfolio-card side-card">
+							<div class="portfolio-card-body">
+								<h5 class="portfolio-card-title">National AP Scholar</h5>
+								<p class="card-text smaller-text">Scored highly on 17 college-level exams.</p>
+								<div class="tags">
+									<span class="badge badge-pill badge-info">Award</span>
+								</div>
+							</div>
+						</div>
+  				</div>
+  				<!-- SAT -->
+  				<div class="card-container col-lg-6 col-sm-8 col-xl-2  col-md-6" data-type="award" data-date="4-05-17">
+  					<div class="portfolio-card side-card">
+  						<div class="portfolio-card-body">
+  							<h5 class="portfolio-card-title">Perfect Math 2 SAT</h5>
+  							<p class="card-text smaller-text">Calculators work well when you press the right buttons.</p>
+  							<div class="tags">
+  								<span class="badge badge-pill badge-info">Award</span>
+  							</div>
+  						</div>
+  					</div>
+  				</div>
+          <!-- Helios -->
+  				<div class="card-container col-lg-3 col-sm-6 col-xl-2" data-type="work" data-langs="" data-date="08-07-16">
+  						<div class="portfolio-card">
+  							<div class="aspect aspect__wide white-bg-pic">
+  								<div class="aspect__inner">
+  									<img class="" src="images/optum.png" alt="Optum">
+  								</div>
+  							</div>
+  							<div class="portfolio-card-body">
+  								<h5 class="portfolio-card-title">Helios CFO Shadow</h5>
+  								<p class="card-text">Shadowed CFO of Helios, a $1B PBM company then recently acquired by the ~$90B major component of UHG, Optum.</p>
+  								<div class="tags">
+  									<span class="badge badge-pill badge-info">Work</span>
+  									<span class="badge badge-pill badge-primary">Business Analytics</span>
+                  </div>
+  							</div>
+  						</div>
+  				</div>
+  				<div class="col-1 shuffle-sizer"></div>
+  			</div>
+  		</div>
+  		<!-- END OF CONTAINER-->
+  	</div>
+
+
+  	<script src="js/shuffle.js"></script>
+  	<script src="js/app-portfolio.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script> -->
+  </body>
+</html>

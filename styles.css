@@ -1,0 +1,289 @@
+.body {
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+}
+
+.navbar-right {
+  margin-right: 0!important;
+  margin-left: auto;
+}
+
+.navbar-right a {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.navbar-right a:hover {
+  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  background-color: #9fe8f3;
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+  font-size: 16pt;
+}
+
+.icon-link a {
+	color: black;
+	display: flex;
+	align-items: center;
+}
+
+.icon-link a:hover {
+	text-decoration: none;
+}
+
+.icon-link i {
+	font-size: 20pt;
+}
+
+.icon-link a:hover i {
+	color: navy;
+}
+
+.icon-link a:hover span {
+	color: navy;
+}
+
+.icon-link span {
+	margin-left: 5px;
+  margin-right: 20px;
+}
+
+.headshot {
+  max-width: 50%;
+  height: auto;
+  width: auto\9;
+  padding: 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bio-name {
+  width: 100%;
+  text-align: center;
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+}
+
+.bio-text {
+  width: 100%;
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+  font-size: 14pt;
+  padding: 0px 70px 0px 70px;
+}
+
+.currently {
+  width: 100%;
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+  font-size: 11pt;
+  padding: 0px 70px 0px 70px;
+  text-decoration: underline;
+  font-style: italic;
+  text-align: center;
+}
+
+.main-container {
+  margin-top: 5rem;
+}
+
+.newscard {
+  border-style: outset;
+}
+
+.newscard img {
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.newscard a {
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+  font-size: 17px;
+  color: black;
+  font-weight: 530;
+}
+
+.newscard a:hover {
+  color: navy;
+  text-decoration: none;
+}
+
+.newscard p {
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.main-block {
+  margin-top: 5rem;
+}
+
+.portfolio-name {
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 43px;
+  font-weight: 430;
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.portfolio-sort {
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+  display: inline-block;
+}
+
+.filter-label {
+	font-weight: 540;
+}
+
+/**/
+
+.portfolio-card {
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	height: 250px;
+	border: 1px solid #ddd;
+	background: white;
+	margin-bottom: 30px;
+	transition: all .1s ease-in;
+	position: relative;
+  font-family: 'Avenir Next', 'Open Sans', sans-serif;
+}
+
+.portfolio-card.screen-pic {
+	height: 390px;
+}
+
+.portfolio-card.screen-pic .aspect{
+	padding-bottom: 66%;
+}
+.portfolio-card.side-card {
+	height: 110px;
+	display: flex;
+}
+.portfolio-card.side-card.side-card-img .aspect {
+	padding: 0;
+	height: 100%;
+}
+.portfolio-card.side-card-img .portfolio-card-body {
+	width: calc(100% - 110px);
+}
+
+.side-card .card-text.smaller-text {
+	margin-top: -3px;
+}
+
+.card-text {
+	font-size: 10pt;
+	margin-top: 4px;
+}
+
+.card-text.smaller-text {
+	font-size: 9pt;
+}
+
+.portfolio-card .portfolio-card-title {
+	font-size: 1rem;
+	margin-top: 8px;
+	font-weight: 600;
+}
+
+.portfolio-card-body {
+	padding-top: 0rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.portfolio-card:hover {
+	top: -2px;
+	box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+}
+
+.shuffle-container-holder {
+	background: #f5f7f9;
+	padding-top: 10px;
+	flex: 1;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 30px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.tags {
+	font-size: smaller;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	right: 15px;
+	background: #ffffffa8;
+}
+
+.side-card .tags {
+	bottom: 10px;
+}
+
+.portfolio-card .side-card-logo {
+	width: 110px;
+}
+
+.card-container a {
+	color: inherit;
+}
+
+.card-container a:hover {
+	text-decoration: inherit;
+}
+
+.aspect {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 30%;
+	overflow: hidden;
+}
+
+.aspect img {
+	height: 100%;
+}
+
+.aspect img.full-width {
+	width: 100%;
+}
+
+.aspect.white-bg-pic {
+	border-bottom: 1px solid #ddd;
+}
+
+.aspect__wide {
+	padding-bottom: 30%;
+}
+
+.aspect__inner {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.aspect--16x9 {
+	padding-bottom: 56.25%;
+}
+
+.aspect--9x80 {
+	padding-bottom: calc(112.5% + 8px);
+}
+
+.aspect--32x9 {
+	padding-bottom: calc(28.125% - 3px);
+}
