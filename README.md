@@ -1,1 +1,1 @@
-# Personal Website available at gardnerpat.com
+# Personal Website (gardnerpat.com)
